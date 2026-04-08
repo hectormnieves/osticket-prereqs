@@ -8,8 +8,6 @@
 Built and configured a working help desk system from scratch
 </p>
 
-<hr>
-
 <h2> What I Used</h2>
 
 - Microsoft Azure (Virtual Machine)  
@@ -18,13 +16,9 @@ Built and configured a working help desk system from scratch
 - PHP Manager  
 - MySQL  
 
-<hr>
-
 <h2> OS</h2>
 
 - Windows 10 (21H2)
-
-<hr>
 
 <h2> What I Had to Set Up First</h2>
 
