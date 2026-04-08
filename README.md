@@ -84,28 +84,23 @@ Opened it in the browser, connected the database, and finished setup.
 
 <h2> End Result</h2>
 
-<p>
-At the end, I had a fully working help desk system where:
-Users can submit tickets  
-Tickets can be tracked and updated  
-Admins can manage everything  
+- Users can submit tickets  
+- Tickets can be tracked and updated  
+- Admins can manage everything  
 
+<p>
 Basically a real help desk setup like you’d see in an IT job.
 </p>
 
 <h2> What I Learned</h2>
 
-<p>
-How to set up IIS and host a web app  
-How a database connects to an application  
-Troubleshooting when stuff doesn’t work (definitely ran into that)  
-How ticketing systems actually work in real IT environments  
-</p>
+- How to set up IIS and host a web app  
+- How a database connects to an application  
+- Troubleshooting when stuff doesn’t work (definitely ran into that)  
+- How ticketing systems actually work in real IT environments  
 
 <h2> What I’d Do Next</h2>
 
-<p>
-Set up email ticketing  
-Add user roles and permissions  
-Practice real help desk scenarios  
-</p>
+- Set up email ticketing  
+- Add user roles and permissions  
+- Practice real help desk scenarios  
