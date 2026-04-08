@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/OsTicket_logo.png" alt="osTicket logo" width="300"/>
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1 align="center">osTicket Help Desk Lab (My Setup)</h1>
@@ -16,7 +16,7 @@ Built and configured a working help desk system from scratch
 
 <hr>
 
-<h2>🧰 What I Used</h2>
+<h2> What I Used</h2>
 
 - Microsoft Azure (Virtual Machine)  
 - Remote Desktop  
@@ -44,7 +44,7 @@ Before installing osTicket, I had to get everything ready:
 
 ---
 
-<h2>⚙️ What I Did (Step-by-Step)</h2>
+<h2> What I Did (Step-by-Step)</h2>
 
 <h3>1. Enabled IIS (Web Server)</h3>
 
@@ -106,7 +106,7 @@ Opened it in the browser, connected the database, and finished setup.
 
 ---
 
-<h2>✅ End Result</h2>
+<h2> End Result</h2>
 
 <p>
 At the end, I had a fully working help desk system where:
@@ -122,7 +122,7 @@ Basically a real help desk setup like you’d see in an IT job.
 
 ---
 
-<h2>🧠 What I Learned</h2>
+<h2> What I Learned</h2>
 
 - How to set up IIS and host a web app  
 - How a database connects to an application  
@@ -131,7 +131,7 @@ Basically a real help desk setup like you’d see in an IT job.
 
 ---
 
-<h2>🚀 What I’d Do Next</h2>
+<h2> What I’d Do Next</h2>
 
 - Set up email ticketing  
 - Add user roles and permissions  
