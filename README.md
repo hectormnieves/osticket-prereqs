@@ -39,8 +39,10 @@ First, I turned on IIS so I could host the application locally.
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/9Xn4R9k.png" width="80%" alt="IIS Setup"/>
+  <img width="415" height="482" alt="image" src="https://github.com/user-attachments/assets/69968a76-c0c6-4244-99d1-a294034305e0" />
+  <img width="407" height="570" alt="image" src="https://github.com/user-attachments/assets/200dc38b-5c5d-46e2-8bc5-0825f57e3b53" />
 </p>
+
 
 <h3>2. Installed PHP Manager</h3>
 
@@ -49,7 +51,8 @@ Then I installed PHP Manager so IIS could actually run PHP apps like osTicket.
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/Jr6pG8H.png" width="80%" alt="PHP Manager"/>
+<img width="726" height="524" alt="image" src="https://github.com/user-attachments/assets/40245525-2827-45c7-949c-0bd133849162" />
+<img width="415" height="679" alt="image" src="https://github.com/user-attachments/assets/2a83e8e3-e531-4db1-a6a1-480d9fb846aa" />
 </p>
 
 <h3>3. Installed MySQL (Database)</h3>
@@ -59,7 +62,10 @@ Set up MySQL and created a database for osTicket to store ticket data.
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/4XQZ4lD.png" width="80%" alt="MySQL Setup"/>
+  <img width="600" height="452" alt="image" src="https://github.com/user-attachments/assets/2a4438a6-24ba-4bb3-871e-fedc9fb1d0ec" />
+<img width="738" height="540" alt="image" src="https://github.com/user-attachments/assets/462ca80a-ccb5-4fe2-824d-084ed2a90e99" />
+
+
 </p>
 
 <h3>4. Added osTicket Files to IIS</h3>
