@@ -32,7 +32,7 @@ Built and configured a working help desk system from scratch
 
 <hr>
 
-<h2>📋 What I Had to Set Up First</h2>
+<h2> What I Had to Set Up First</h2>
 
 Before installing osTicket, I had to get everything ready:
 
