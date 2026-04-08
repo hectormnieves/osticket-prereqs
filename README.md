@@ -1,33 +1,28 @@
 <p align="center">
-  <img src="https://i.imgur.com/8fK4h6G.png" alt="osTicket logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/OsTicket_logo.png" alt="osTicket logo" width="300"/>
 </p>
 
-<h1>osTicket Help Desk Lab (My Setup)</h1>
+<h1 align="center">osTicket Help Desk Lab (My Setup)</h1>
 
-<p>
-For this project, I set up <b>osTicket</b>, which is an open-source help desk ticketing system. 
-The goal was to get hands-on experience with something similar to what real IT support teams use every day.
-</p>
-
-<p>
-I built everything inside a Windows virtual machine and configured all the pieces needed to get it running from scratch.
+<p align="center">
+Built and configured a working help desk system from scratch
 </p>
 
 <hr>
 
 <h2>🎥 Demo</h2>
 
-- I’ll add a video walkthrough here soon (showing install + ticket system working)
+- I’ll add a video walkthrough here soon (install + ticket system working)
 
 <hr>
 
 <h2>🧰 What I Used</h2>
 
-- Microsoft Azure (Virtual Machine)
-- Remote Desktop
-- IIS (Web Server)
-- PHP Manager
-- MySQL
+- Microsoft Azure (Virtual Machine)  
+- Remote Desktop  
+- IIS (Web Server)  
+- PHP Manager  
+- MySQL  
 
 <hr>
 
@@ -39,58 +34,74 @@ I built everything inside a Windows virtual machine and configured all the piece
 
 <h2>📋 What I Had to Set Up First</h2>
 
-Before installing osTicket, I had to get a few things ready:
+Before installing osTicket, I had to get everything ready:
 
 - Turned on IIS in Windows Features  
-- Installed PHP Manager so IIS can run PHP  
-- Installed MySQL for the database  
+- Installed PHP Manager  
+- Installed MySQL  
 - Installed Visual C++ Redistributable  
-- Made sure IIS was configured correctly  
+- Configured IIS for PHP  
 
-<hr>
+---
 
 <h2>⚙️ What I Did (Step-by-Step)</h2>
 
-<h3>1. Set up IIS</h3>
+<h3>1. Enabled IIS (Web Server)</h3>
 
 <p>
-First thing I did was enable IIS so I could host the web app locally.
+First, I turned on IIS so I could host the application locally.
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/Zk6TR5k.png" width="80%" />
+  <img src="https://i.imgur.com/9Xn4R9k.png" width="80%" alt="IIS Setup"/>
 </p>
 
 ---
 
-<h3>2. Got PHP working</h3>
+<h3>2. Installed PHP Manager</h3>
 
 <p>
-Installed PHP Manager and made sure IIS could actually process PHP files.
+Then I installed PHP Manager so IIS could actually run PHP apps like osTicket.
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Jr6pG8H.png" width="80%" alt="PHP Manager"/>
 </p>
 
 ---
 
-<h3>3. Set up the database</h3>
+<h3>3. Installed MySQL (Database)</h3>
 
 <p>
-Installed MySQL and created a database that osTicket would use to store all the tickets.
+Set up MySQL and created a database for osTicket to store ticket data.
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/4XQZ4lD.png" width="80%" alt="MySQL Setup"/>
 </p>
 
 ---
 
-<h3>4. Installed osTicket</h3>
+<h3>4. Added osTicket Files to IIS</h3>
 
 <p>
-Downloaded the files, moved them into the IIS directory, and started the setup through the browser.
+Downloaded osTicket and placed the files into the IIS root directory.
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/2rFZk3P.png" width="80%" alt="osTicket Files"/>
 </p>
 
 ---
 
-<h3>5. Finished setup</h3>
+<h3>5. Ran the Web Installer</h3>
 
 <p>
-Connected it to the database, created my admin account, and completed the install.
+Opened it in the browser, connected the database, and finished setup.
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Uw6lYkG.png" width="80%" alt="osTicket Installer"/>
 </p>
 
 ---
@@ -103,25 +114,25 @@ At the end, I had a fully working help desk system where:
 
 - Users can submit tickets  
 - Tickets can be tracked and updated  
-- Admins can manage and respond  
+- Admins can manage everything  
 
 <p>
-Basically a real-world help desk environment.
+Basically a real help desk setup like you’d see in an IT job.
 </p>
 
-<hr>
+---
 
 <h2>🧠 What I Learned</h2>
 
-- How to set up a web server (IIS)
-- How databases connect to applications
-- Troubleshooting when things don’t work (this happened a lot 😅)
-- How ticketing systems actually function in IT jobs
+- How to set up IIS and host a web app  
+- How a database connects to an application  
+- Troubleshooting when stuff doesn’t work (definitely ran into that)  
+- How ticketing systems actually work in real IT environments  
 
-<hr>
+---
 
 <h2>🚀 What I’d Do Next</h2>
 
-- Set up email so tickets come in automatically  
-- Add different user roles  
+- Set up email ticketing  
+- Add user roles and permissions  
 - Practice real help desk scenarios  
