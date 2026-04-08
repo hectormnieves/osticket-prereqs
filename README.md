@@ -1,55 +1,127 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/8fK4h6G.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket Help Desk Lab (My Setup)</h1>
 
+<p>
+For this project, I set up <b>osTicket</b>, which is an open-source help desk ticketing system. 
+The goal was to get hands-on experience with something similar to what real IT support teams use every day.
+</p>
 
-<h2>Video Demonstration</h2>
+<p>
+I built everything inside a Windows virtual machine and configured all the pieces needed to get it running from scratch.
+</p>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<hr>
 
-<h2>Environments and Technologies Used</h2>
+<h2>🎥 Demo</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- I’ll add a video walkthrough here soon (showing install + ticket system working)
+
+<hr>
+
+<h2>🧰 What I Used</h2>
+
+- Microsoft Azure (Virtual Machine)
 - Remote Desktop
-- Internet Information Services (IIS)
+- IIS (Web Server)
+- PHP Manager
+- MySQL
 
-<h2>Operating Systems Used </h2>
+<hr>
 
-- Windows 10</b> (21H2)
+<h2>💻 OS</h2>
 
-<h2>List of Prerequisites</h2>
+- Windows 10 (21H2)
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<hr>
 
-<h2>Installation Steps</h2>
+<h2>📋 What I Had to Set Up First</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Before installing osTicket, I had to get a few things ready:
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Turned on IIS in Windows Features  
+- Installed PHP Manager so IIS can run PHP  
+- Installed MySQL for the database  
+- Installed Visual C++ Redistributable  
+- Made sure IIS was configured correctly  
+
+<hr>
+
+<h2>⚙️ What I Did (Step-by-Step)</h2>
+
+<h3>1. Set up IIS</h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First thing I did was enable IIS so I could host the web app locally.
 </p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Zk6TR5k.png" width="80%" />
+</p>
+
+---
+
+<h3>2. Got PHP working</h3>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installed PHP Manager and made sure IIS could actually process PHP files.
 </p>
-<br />
+
+---
+
+<h3>3. Set up the database</h3>
+
+<p>
+Installed MySQL and created a database that osTicket would use to store all the tickets.
+</p>
+
+---
+
+<h3>4. Installed osTicket</h3>
+
+<p>
+Downloaded the files, moved them into the IIS directory, and started the setup through the browser.
+</p>
+
+---
+
+<h3>5. Finished setup</h3>
+
+<p>
+Connected it to the database, created my admin account, and completed the install.
+</p>
+
+---
+
+<h2>✅ End Result</h2>
+
+<p>
+At the end, I had a fully working help desk system where:
+</p>
+
+- Users can submit tickets  
+- Tickets can be tracked and updated  
+- Admins can manage and respond  
+
+<p>
+Basically a real-world help desk environment.
+</p>
+
+<hr>
+
+<h2>🧠 What I Learned</h2>
+
+- How to set up a web server (IIS)
+- How databases connect to applications
+- Troubleshooting when things don’t work (this happened a lot 😅)
+- How ticketing systems actually function in IT jobs
+
+<hr>
+
+<h2>🚀 What I’d Do Next</h2>
+
+- Set up email so tickets come in automatically  
+- Add different user roles  
+- Practice real help desk scenarios  
