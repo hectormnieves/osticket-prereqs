@@ -38,54 +38,65 @@ Before installing osTicket, I had to get everything ready:
 First, I turned on IIS so I could host the application locally.
 </p>
 
-<p align="center">
-  <img width="415" height="482" alt="image" src="https://github.com/user-attachments/assets/69968a76-c0c6-4244-99d1-a294034305e0" />
-  <img width="407" height="570" alt="image" src="https://github.com/user-attachments/assets/200dc38b-5c5d-46e2-8bc5-0825f57e3b53" />
-</p>
+<table>
+<tr>
+<td><img src="https://cdn.midas.network/img/kb/00209-02.png" width="400"/></td>
+<td><img src="https://learn-attachment.microsoft.com/api/attachments/290a7f21-03f3-4412-91e3-7cd887e9147a?platform=QnA" width="400"/></td>
+</tr>
+</table>
 
-
-<h3>2. Installed PHP Manager</h3>
-
-<p>
-Then I installed PHP Manager so IIS could actually run PHP apps like osTicket.
-</p>
-
-<p align="center">
-<img width="726" height="524" alt="image" src="https://github.com/user-attachments/assets/40245525-2827-45c7-949c-0bd133849162" />
-<img width="415" height="679" alt="image" src="https://github.com/user-attachments/assets/2a83e8e3-e531-4db1-a6a1-480d9fb846aa" />
-</p>
-
-<h3>3. Installed MySQL (Database)</h3>
+<h3>2. IIS Features / Configuration</h3>
 
 <p>
-Set up MySQL and created a database for osTicket to store ticket data.
+Made sure the right IIS features were enabled so everything would work correctly.
 </p>
 
-<p align="center">
-  <img width="600" height="452" alt="image" src="https://github.com/user-attachments/assets/2a4438a6-24ba-4bb3-871e-fedc9fb1d0ec" />
-<img width="738" height="540" alt="image" src="https://github.com/user-attachments/assets/462ca80a-ccb5-4fe2-824d-084ed2a90e99" />
+<table>
+<tr>
+<td><img src="https://learn-attachment.microsoft.com/api/attachments/81930-screen-shot-2021-03-26-at-35143-pm.jpg?platform=QnA" width="400"/></td>
+<td><img src="https://docs.appeon.com/ps2022r2/images/ps_tutorial_125_1.png" width="400"/></td>
+</tr>
+</table>
 
-
-</p>
-
-<h3>4. Added osTicket Files to IIS</h3>
+<h3>3. IIS Manager Running</h3>
 
 <p>
-Downloaded osTicket and placed the files into the IIS root directory.
+Checked IIS Manager to confirm the web server was up and running.
 </p>
 
-<p align="center">
-  <img src="https://i.imgur.com/2rFZk3P.png" width="80%" alt="osTicket Files"/>
-</p>
+<table>
+<tr>
+<td><img src="https://4js.com/online_documentation/fjs-gas-manual-html/gas-topics/Images/IIS_Windows10_IIS_Manager.jpg" width="400"/></td>
+<td><img src="https://learn.microsoft.com/en-us/iis/configuration/system.webserver/management/authentication/index/_static/image7.png" width="400"/></td>
+</tr>
+</table>
 
-<h3>5. Ran the Web Installer</h3>
+<h3>4. Installed PHP Manager</h3>
 
 <p>
-Opened it in the browser, connected the database, and finished setup.
+Installed PHP Manager so IIS could run PHP apps like osTicket.
+(Add your own screenshot here for best results)
 </p>
 
-<p align="center">
-  <img src="https://i.imgur.com/Uw6lYkG.png" width="80%" alt="osTicket Installer"/>
+<h3>5. Installed MySQL (Database)</h3>
+
+<p>
+Set up MySQL and created a database for osTicket.
+(Add your own screenshot here for best results)
+</p>
+
+<h3>6. Added osTicket Files to IIS</h3>
+
+<p>
+Downloaded osTicket and placed the files into the IIS directory.
+(Add your own screenshot here)
+</p>
+
+<h3>7. Ran the Web Installer</h3>
+
+<p>
+Finished setup through the browser and connected the database.
+(Add your own screenshot here)
 </p>
 
 <h2> End Result</h2>
