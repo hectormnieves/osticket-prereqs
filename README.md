@@ -10,7 +10,7 @@ Built and configured a working help desk system from scratch
 
 <hr>
 
-<h2>🎥 Demo</h2>
+<h2> Demo</h2>
 
 - I’ll add a video walkthrough here soon (install + ticket system working)
 
@@ -26,7 +26,7 @@ Built and configured a working help desk system from scratch
 
 <hr>
 
-<h2>💻 OS</h2>
+<h2> OS</h2>
 
 - Windows 10 (21H2)
 
