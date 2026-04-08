@@ -10,11 +10,7 @@ Built and configured a working help desk system from scratch
 
 <hr>
 
-<h2> Demo</h2>
 
-- I’ll add a video walkthrough here soon (install + ticket system working)
-
-<hr>
 
 <h2> What I Used</h2>
 
