@@ -22,82 +22,77 @@ Built and configured a working help desk system from scratch
 
 <h2> What I Had to Set Up First</h2>
 
-Before installing osTicket, I had to get everything ready:
+Before installing osTicket, I set up everything needed for it to run:
 
-- Turned on IIS in Windows Features  
-- Installed PHP Manager  
-- Installed MySQL  
+- Enabled IIS (web server) in Windows  
+- Installed PHP Manager so IIS can run PHP  
+- Installed MySQL for the database  
 - Installed Visual C++ Redistributable  
-- Configured IIS for PHP  
+- Made sure IIS was properly configured  
 
-<h2> What I Did (Step-by-Step)</h2>
+<h2> Step-by-Step Setup</h2>
 
-<h3>1. Enabled IIS (Web Server)</h3>
-
-<p>
-First, I turned on IIS so I could host the application locally.
-</p>
-
-<table>
-<tr>
-<td><img src="https://cdn.midas.network/img/kb/00209-02.png" width="400"/></td>
-<td><img src="https://learn-attachment.microsoft.com/api/attachments/290a7f21-03f3-4412-91e3-7cd887e9147a?platform=QnA" width="400"/></td>
-</tr>
-</table>
-
-<h3>2. IIS Features / Configuration</h3>
+<h3> Step 1: Enable IIS</h3>
 
 <p>
-Made sure the right IIS features were enabled so everything would work correctly.
+First, I enabled IIS (Internet Information Services) in Windows Features. 
+This allows me to host a website locally on the machine.
 </p>
 
-<table>
-<tr>
-<td><img src="https://learn-attachment.microsoft.com/api/attachments/81930-screen-shot-2021-03-26-at-35143-pm.jpg?platform=QnA" width="400"/></td>
-<td><img src="https://docs.appeon.com/ps2022r2/images/ps_tutorial_125_1.png" width="400"/></td>
-</tr>
-</table>
+<!-- INSERT IMAGE HERE -->
 
-<h3>3. IIS Manager Running</h3>
+<h3> Step 2: Configure IIS Features</h3>
 
 <p>
-Checked IIS Manager to confirm the web server was up and running.
+Next, I made sure the correct IIS features were enabled, especially anything related to application development like CGI.
+This is important so PHP applications can run correctly.
 </p>
 
-<table>
-<tr>
-<td><img src="https://4js.com/online_documentation/fjs-gas-manual-html/gas-topics/Images/IIS_Windows10_IIS_Manager.jpg" width="400"/></td>
-<td><img src="https://learn.microsoft.com/en-us/iis/configuration/system.webserver/management/authentication/index/_static/image7.png" width="400"/></td>
-</tr>
-</table>
+<!-- INSERT IMAGE HERE -->
 
-<h3>4. Installed PHP Manager</h3>
+<h3> Step 3: Open IIS Manager</h3>
 
 <p>
-Installed PHP Manager so IIS could run PHP apps like osTicket.
-(Add your own screenshot here for best results)
+After installing IIS, I opened IIS Manager to confirm everything was working.
+I verified that the default website was running.
 </p>
 
-<h3>5. Installed MySQL (Database)</h3>
+<!-- INSERT IMAGE HERE -->
+
+<h3> Step 4: Install PHP Manager</h3>
 
 <p>
-Set up MySQL and created a database for osTicket.
-(Add your own screenshot here for best results)
+Then I installed PHP Manager, which allows IIS to process PHP files.
+This is required for osTicket since it is a PHP-based application.
 </p>
 
-<h3>6. Added osTicket Files to IIS</h3>
+<!-- INSERT IMAGE HERE -->
+
+<h3> Step 5: Install MySQL</h3>
 
 <p>
-Downloaded osTicket and placed the files into the IIS directory.
-(Add your own screenshot here)
+Next, I installed MySQL and created a database that osTicket will use to store ticket data.
 </p>
 
-<h3>7. Ran the Web Installer</h3>
+<!-- INSERT IMAGE HERE -->
+
+<h3> Step 6: Add osTicket Files</h3>
 
 <p>
-Finished setup through the browser and connected the database.
-(Add your own screenshot here)
+I downloaded osTicket and moved the files into the IIS web directory (wwwroot).
+This makes the application accessible through the browser.
 </p>
+
+<!-- INSERT IMAGE HERE -->
+
+<h3> Step 7: Run osTicket Installer</h3>
+
+<p>
+Finally, I opened a browser and navigated to the osTicket setup page.
+I connected it to the MySQL database, created an admin account, and completed the installation.
+</p>
+
+<!-- INSERT IMAGE HERE -->
 
 <h2> End Result</h2>
 
@@ -106,15 +101,15 @@ Finished setup through the browser and connected the database.
 - Admins can manage everything  
 
 <p>
-Basically a real help desk setup like you’d see in an IT job.
+This is basically a real help desk system like what’s used in IT jobs.
 </p>
 
 <h2> What I Learned</h2>
 
-- How to set up IIS and host a web app  
-- How a database connects to an application  
-- Troubleshooting when stuff doesn’t work (definitely ran into that)  
-- How ticketing systems actually work in real IT environments  
+- How to set up IIS and host a web application  
+- How databases connect to applications  
+- Troubleshooting installation issues  
+- How help desk ticketing systems work  
 
 <h2> What I’d Do Next</h2>
 
